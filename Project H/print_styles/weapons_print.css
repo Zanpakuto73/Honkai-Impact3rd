@@ -1,0 +1,17 @@
+html{color:black;}
+body{font-family: 'Times New Roman', Times, serif;
+width:auto;
+font-size:90%;
+}
+main ul{color:black;}
+p.center{color:black;}
+span{margin-right:50px;}
+img {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    margin-right:30px;
+}
+ul img{display:none;}
+nav{display:none}
+footer,footer a{color:black;
+text-decoration-color: black;}

@@ -1,0 +1,19 @@
+html{color:black;}
+body{font-family: 'Times New Roman', Times, serif;
+width:auto;
+font-size:90%}
+p.center{color:black;}
+span{margin-right:50px;}
+img{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+#first{
+   display:none;
+}
+#second{display:none;}
+iframe{display:none;}
+nav{display:none}
+#first{float:right;}
+footer{color:black;}
+footer a{text-decoration-color: black;}

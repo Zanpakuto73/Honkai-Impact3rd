@@ -1,0 +1,113 @@
+html{background-image:url("../images/Honk_Back.jpg");
+background-repeat:no-repeat;
+background-size:cover;}
+
+body{font-family:'Lucida Sans', 'Lucida Sans Regular', 
+'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+width:1000px;
+background-color:#33DDFF;
+margin:0 auto;
+padding:0;
+border:3px solid black;
+border-radius:5px;}
+
+/*Header*/
+header{background:black;
+    padding:1px;
+    border-bottom:2px solid white;}
+header img{float:left;}
+header img.right{float:right;}
+header h1{font-size:230%;
+color:white;}
+header p{color:red;
+}
+.center{text-align:center;}
+
+/*Nav menu*/
+nav{background-color:black;
+padding-bottom:1.25em;
+width:100%;
+clear:all;}
+
+nav ul{list-style: none;
+margin:0;
+padding:0;
+display:block;
+position:relative;
+text-align:center;}
+
+nav ul li{float:left;
+width:25%;
+}
+
+nav ul li a{text-align:center;
+display: block;
+text-decoration:none;
+padding-top:2em ;
+padding-bottom:1.5em;
+color:white;
+font-weight:bold;
+font-size:100%;
+border-right: 2px solid white;
+}
+nav ul ul{display:none;
+position:absolute;
+background-color:black;
+width:248px;}
+
+nav ul ul li{float:none;
+width: 248px;
+text-align:center;
+}
+nav ul ul li a:link{margin:0;}
+nav ul ul li a{text-align:center;
+display:block;
+border-top:2px solid white;
+border-right:none;}
+nav ul li:hover>ul{display:block;
+clear:both;}
+nav ul ul li{float:none;
+position:relative;}
+nav ul li a.last{border-right:none;}
+nav a:link, a:visited{color:white;}
+nav a:hover,a:focus{color:orange;}
+main{background-color:#33DDFF;}
+span{background-color: #333333;
+float:left;
+margin-left:5px;
+margin-top:15px;
+text-indent:30px;
+color:white;
+}
+
+main h1{text-indent:0;}
+
+#first{float:right;
+border:3px solid white;
+margin-right:60px;
+margin-left:30px;}
+#second{float:left;
+margin-top:30px;
+margin-left:10px;
+margin-bottom:100px;
+border:3px solid white;
+}
+#span_bottom{float:right;
+margin-left:-100px;
+margin-right:70px;
+margin-top:45px;
+padding:0 10px;}
+iframe{clear:both;
+margin-top:25px;
+margin-left:210px;
+
+border:3px solid black;
+}
+/*Footer*/
+footer{text-align:center;
+    background-color:black;
+    color:white;
+    border-top:2px solid black;
+    padding:15px;
+    clear:both;}
+    footer a{color:white;}

@@ -1,0 +1,15 @@
+
+body{font-family: 'Times New Roman', Times, serif;
+    width:auto;
+    font-size:90%}
+p.center{color:black;}
+img {
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    }
+a{color:black;
+text-decoration-color: black;}
+nav{display:none;}
+table tr{color:black;}
+table a:link, table a:visited{color:black;}
+footer,footer a{color:black;}

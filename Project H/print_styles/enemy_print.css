@@ -1,0 +1,13 @@
+html{color:black;
+}
+body{font-family: 'Times New Roman', Times, serif;
+width:auto;
+font-size:90%}
+p.center{color:black;}
+img {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+td figure img{display:none;}
+nav{display:none}
+table,td{border:3px solid black;}
